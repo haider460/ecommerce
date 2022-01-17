@@ -1,0 +1,33 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.Login {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    margin: 0 0 1.5rem 0;
+}
+
+input:focus {
+    border-color: #e0218a !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    box-shadow: 2px 2px 5px #e0218a !important;
+}
+
+button:focus {
+    border-color: #e0218a !important;
+    box-shadow: 2px 2px 5px #e0218a !important;
+}

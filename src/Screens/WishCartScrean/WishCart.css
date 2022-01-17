@@ -1,0 +1,119 @@
+.wish_list_header {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 11.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3.1rem;
+}
+
+.wish_list_header h1 {
+    font-weight: 400;
+}
+.links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3.5rem;
+    border-bottom: 0.5px solid rgb(211, 211, 211);
+}
+
+.list-group-item {
+    padding: 0.5rem;
+}
+.links-group {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    margin-bottom: 0rem;
+}
+.wishlist_cart {
+    width: 100%;
+}
+
+.table {
+    margin-top: 3rem;
+}
+.product {
+    width: 45%;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.price {
+    width: 15%;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.stock_status {
+    width: 40%;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.table_data {
+    border-bottom: 0.5px solid rgb(223, 223, 223);
+    height: 7rem;
+    text-align: center;
+}
+td {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+    padding-top: 1.5rem !important;
+}
+
+@media only screen and (max-width: 810px) {
+    tbody {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .price {
+        width: 15%;
+        color: #333;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .stock_status {
+        width: 100%;
+    }
+}
+
+.image_div {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.stock_status_value {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn {
+    padding: 0.5rem 3rem;
+    border: 1px solid #e0218a;
+    color: #e0218a;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #e0218a;
+}
+
+.price_value {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.crossIcon {
+    font-weight: 300 !important;
+    cursor: pointer;
+}

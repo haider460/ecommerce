@@ -1,0 +1,14 @@
+.img-fluid {
+    height: 500px;
+    width: 100%;
+}
+.backgroundImge {
+    background-image: url(./image2.jpg);
+}
+
+@media only screen and (max-width: 987px) {
+    .img-fluid {
+        height: 300px;
+        margin-top: 0rem;
+    }
+}
